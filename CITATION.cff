@@ -1,0 +1,94 @@
+cff-version: 1.2.0
+message: "If you use this CAD package, simulation suite, or technical study in your research, please cite it using the metadata below."
+title: "Tip-Seal & Blade-Tip Architecture Study: Zero-Hole Labyrinth Shroud + Carbide Ring (Track A) vs. Open-Tip 22-Port Bleed Array (Track B)"
+version: 1.0.0
+date-released: 2026-11-23
+authors:
+  - family-names: "Singh"
+    given-names: "Abhishek"
+    orcid: "https://orcid.org/0009-0004-6913-096X"
+    email: "abhishek1033@gmail.com"
+    city: "Rewa"
+    region: "Madhya Pradesh"
+    country: "IN"
+repository-code: "https://github.com/Abhishek1033ubuntu/tip-seal-comparative-study"
+url: "https://github.com/Abhishek1033ubuntu/tip-seal-comparative-study"
+license: "Apache-2.0"
+keywords:
+  - "turbomachinery"
+  - "tip-leakage"
+  - "labyrinth-seal"
+  - "carbide-piston-ring"
+  - "blade-tip"
+  - "compressible-flow"
+  - "cad-step"
+  - "thermal-expansion"
+  - "stage-efficiency"
+abstract: >-
+  Comparative boundary-representation (B-Rep) CAD modeling, +500 K differential
+  thermal stack-up verification, compressible tip-leakage mass-flow sweep, and
+  stage power-loss analysis evaluating a zero-hole six-tooth labyrinth shroud
+  coupled with a pressure-energized split tungsten-carbide piston ring (Track A)
+  against an unshrouded open-tip blade profile with twenty-two 2.20 mm cross-bleed
+  ports (Track B). At stage pressure ratio PR = 2.0, inlet total temperature 800 K,
+  and 25.0 kg/s core flow, Track A reduces tip-leakage mass flow by 99.25% baseline
+  (96.98% degraded lift-off) and recovers 115.54 kW in direct bypass power
+  (191.21 kW when accounting for tip-vortex and bleed-jet mixing at k_mix = 1.65).
+references:
+  - type: "standard"
+    title: "ISO 10303-21: Industrial automation systems and integration — Product data representation and exchange"
+    url: "https://www.iso.org/standard/63141.html"
+  - type: "article"
+    title: "A Fluid Mechanics Approach to the Labyrinth Seal Leakage Problem"
+    authors:
+      - family-names: "Vermes"
+        given-names: "G."
+    journal: "Journal of Engineering for Power"
+    year: 1961
+    volume: 83
+    issue: 2
+    start: 161
+    end: 169
+    doi: "10.1115/1.3673158"
+  - type: "article"
+    title: "Loss Mechanisms in Turbomachines"
+    authors:
+      - family-names: "Denton"
+        given-names: "J. D."
+    journal: "Journal of Turbomachinery"
+    year: 1993
+    volume: 115
+    issue: 4
+    start: 621
+    end: 656
+    doi: "10.1115/1.2929299"
+  - type: "article"
+    title: "Axial Turbine Blade Tips: Function, Design, and Durability"
+    authors:
+      - family-names: "Bunker"
+        given-names: "R. S."
+    journal: "Journal of Propulsion and Power"
+    year: 2006
+    volume: 22
+    issue: 2
+    start: 271
+    end: 285
+    doi: "10.2514/1.11818"
+  - type: "article"
+    title: "Sealing in Turbomachinery"
+    authors:
+      - family-names: "Chupp"
+        given-names: "R. E."
+      - family-names: "Hendricks"
+        given-names: "R. C."
+      - family-names: "Lattime"
+        given-names: "S. B."
+      - family-names: "Steinetz"
+        given-names: "B. M."
+    journal: "Journal of Propulsion and Power"
+    year: 2006
+    volume: 22
+    issue: 2
+    start: 313
+    end: 349
+    doi: "10.2514/1.17778"
