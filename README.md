@@ -103,7 +103,7 @@ tip-seal-comparative-study/
 
 [Stage Bypass Power & Efficiency Penalty](figures/stage_leakage_power_loss_refined.png): Lost stage work (kW) and efficiency penalty (%) across core mass flows from 10 kg/s to 60 kg/s with secondary mixing factor kmix = 1.65.
 
-[Vortex & Second-Order Entropy Generation](`figures/vortex_second_order_entropy.png`):** Irreversible throttling and second-order tip-vortex / bleed-jet entropy generation rate (Ṡ<sub>gen,II</sub> in W/K) across pressure ratios Π = 1.05–3.00 and tip clearances.
+[Vortex & Second-Order Entropy Generation](`figures/vortex_second_order_entropy.png`): Irreversible throttling and second-order tip-vortex / bleed-jet entropy generation rate (Ṡ<sub>gen,II</sub> in W/K) across pressure ratios Π = 1.05–3.00 and tip clearances.
 
 ---
 
