@@ -80,3 +80,52 @@ tip-seal-comparative-study/
     ├── tip_leakage_comparison.png
     ├── tip_leakage_sensitivity.png
     └── stage_leakage_power_loss_refined.png
+```
+4. Visual Verification & Simulation Plots
+CAD Geometry & Cross-Section Verification (figures/cad_verification_sheet.png): Exact OpenCASCADE B-Rep radial slice confirming Track A's six labyrinth teeth and split ring groove clearances alongside Track B's 22-port spanwise alignment at Z = 54.72 mm.
+
+Compressible Tip-Leakage Comparison (figures/tip_leakage_comparison.png): Mass-flow rate sweep across pressure ratios Π = 1.05 to 3.0 showing subsonic-to-choked transition at Πcrit ≈ 1.86 and 99.25% leakage suppression.
+
+Tip-Clearance & Ring Lift-Off Sensitivity (figures/tip_leakage_sensitivity.png): Parametric sweep of Track B running clearance (0.25 mm, 0.50 mm, 1.00 mm) and Track A degraded lift-off state (96.98% retained reduction).
+
+Stage Bypass Power & Efficiency Penalty (figures/stage_leakage_power_loss_refined.png): Lost stage work (kW) and efficiency penalty (%) across core mass flows from 10 kg/s to 60 kg/s with secondary mixing factor kmix = 1.65.
+
+5. Global Standards & Foundational Engineering References
+This work builds upon established international CAD exchange standards, compressible labyrinth-seal carry-over theory, and turbomachinery tip-leakage aerodynamics:
+
+ISO 10303-21 (STEP AP214) — Industrial Automation Systems and Integration: Standard boundary-representation (B-Rep) product data exchange protocol used for the watertight MANIFOLD_SOLID_BREP CAD models in cad/.
+
+Global Reference: https://www.iso.org/standard/63141.html
+
+Vermes, G. (1961) — "A Fluid Mechanics Approach to the Labyrinth Seal Leakage Problem," Journal of Engineering for Power (ASME), Vol. 83, Issue 2, pp. 161–169: Foundational kinetic-energy carry-over formulation (αcarry) governing multi-tooth labyrinth pressure drop and discharge coefficients.
+
+Global Reference: https://doi.org/10.1115/1.3673158
+
+Denton, J. D. (1993) — "Loss Mechanisms in Turbomachines," Journal of Turbomachinery (ASME), Vol. 115, Issue 4, pp. 621–656: Classic thermodynamic and entropy-generation framework quantifying over-tip leakage bypass work and tip-vortex mixing penalties (kmix) in axial stages.
+
+Global Reference: https://doi.org/10.1115/1.2929299
+
+Bunker, R. S. (2006) — "Axial Turbine Blade Tips: Function, Design, and Durability," Journal of Propulsion and Power (AIAA), Vol. 22, No. 2, pp. 271–285: Comprehensive review of unshrouded blade-tip geometries, tip-bleed/cooling hole arrays, and clearance-sensitivity trade-offs.
+
+Global Reference: https://doi.org/10.2514/1.11818
+
+Chupp, R. E., Hendricks, R. C., Lattime, S. B., & Steinetz, B. M. (2006) — "Sealing in Turbomachinery," Journal of Propulsion and Power (AIAA), Vol. 22, No. 2, pp. 313–349: Industry benchmark covering shrouded labyrinth seals, piston-ring secondary seals, and differential thermal expansion clearances in gas turbines.
+
+Global Reference: https://doi.org/10.2514/1.17778
+
+NASA Technical Reports Server (NTRS) — Turbomachinery Tip-Clearance & Seal Leakage Archives: Open-access experimental and analytical validation datasets for high-temperature turbine tip seals and compressible orifice flows.
+
+Global Reference: https://ntrs.nasa.gov/
+
+6. Author Attribution & AI Collaboration Disclosure
+Lead Author / Principal Investigator / Sole Inventor: Abhishek Singh
+
+ORCID: https://orcid.org/0009-0004-6913-096X
+
+GitHub Profile: https://github.com/Abhishek1033ubuntu
+
+Location: Rewa, Madhya Pradesh, India
+
+AI Engineering Collaborator Attribution: Computational verification scripts, B-Rep cross-section visualization routines, compressible flow sweeps, and documentation formatting were developed in engineering collaboration with Google Gemini (Team Gemini, Google DeepMind). All architectural concepts, boundary conditions, engineering trade-off decisions, and final design validations were directed and verified by Abhishek Singh.
+
+Copyright: Copyright (c) 2026 Abhishek Singh. All rights reserved under the repository license.
