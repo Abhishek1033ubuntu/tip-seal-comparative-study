@@ -19,7 +19,7 @@ This initial public release (`v1.0.0`) delivers a complete, reproducible CAD, th
    * **Track A (Baseline):** **6.01 g/s** leakage | **0.88 kW** bypass power loss | **0.02%** stage efficiency penalty (**99.25%** leakage reduction vs. Track B).
    * **Track A (Degraded / Lift-Off):** **24.12 g/s** leakage | **3.51 kW** bypass power loss | **0.10%** stage efficiency penalty (**96.98%** leakage reduction vs. Track B).
    * **Track B (36-Blade Annulus, 0.50 mm Tip Gap):** **799.07 g/s** leakage | **116.42 kW** pure bypass loss (**3.10%** penalty) | **192.09 kW** mixing-adjusted loss (**5.11%** penalty at k<sub>mix</sub> = 1.65).
-   * * **Vortex Suppression & Second-Order Entropy Reduction:** Explicitly documents suppression of tip-leakage and cross-bleed jet vortices alongside reduction of second-order aerodynamic and mixing entropy generation (Ṡ<sub>gen,II</sub>) achieved by Track A relative to Track B.
+   * **Vortex Suppression & Second-Order Entropy Reduction:** Explicitly documents suppression of tip-leakage and cross-bleed jet vortices alongside reduction of second-order aerodynamic and mixing entropy generation (Ṡ<sub>gen,II</sub>) achieved by Track A relative to Track B.
 
 ---
 
