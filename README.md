@@ -61,6 +61,11 @@ At Π = 2.0 and T<sub>in</sub> = 800 K, the isentropic specific enthalpy drop ac
 tip-seal-comparative-study/
 ├── README.md
 ├── References.md
+├── CITATION.cff
+├── RELEASE_NOTES.md
+├── CHANGELOG.md
+├── requirements.txt
+├── .gitignore
 ├── LICENSE
 ├── cad/
 │   ├── track_a_carbide_piston_ring.step
@@ -75,11 +80,13 @@ tip-seal-comparative-study/
 │   ├── 02_compressible_leakage_comparison.py
 │   ├── 03_tip_clearance_and_liftoff_sensitivity.py
 │   └── 04_stage_power_loss_and_pdf_report.py
-└── figures/
-    ├── cad_verification_sheet.png
-    ├── tip_leakage_comparison.png
-    ├── tip_leakage_sensitivity.png
-    └── stage_leakage_power_loss_refined.png
+├── figures/
+│   ├── cad_verification_sheet.png
+│   ├── tip_leakage_comparison.png
+│   ├── tip_leakage_sensitivity.png
+│   └── stage_leakage_power_loss_refined.png
+└── reports/
+    └── Tip_Seal_Comparative_Assessment_Report.pdf
 ```
 ---
 
