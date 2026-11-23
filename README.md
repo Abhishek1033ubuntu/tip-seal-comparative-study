@@ -81,11 +81,13 @@ tip-seal-comparative-study/
 │   ├── 02_compressible_leakage_comparison.py
 │   ├── 03_tip_clearance_and_liftoff_sensitivity.py
 │   └── 04_stage_power_loss_and_pdf_report.py
+|   └── 05_vortex_and_second_order_entropy.py
 ├── figures/
 │   ├── cad_verification_sheet.png
 │   ├── tip_leakage_comparison.png
 │   ├── tip_leakage_sensitivity.png
 │   └── stage_leakage_power_loss_refined.png
+|   └── vortex_second_order_entropy.png
 └── reports/
     └── Tip_Seal_Comparative_Assessment_Report.pdf
 ```
@@ -100,6 +102,8 @@ tip-seal-comparative-study/
 [Tip-Clearance & Ring Lift-Off Sensitivity](figures/tip_leakage_sensitivity.png): Parametric sweep of Track B running clearance (0.25 mm, 0.50 mm, 1.00 mm) and Track A degraded lift-off state (96.98% retained reduction).
 
 [Stage Bypass Power & Efficiency Penalty](figures/stage_leakage_power_loss_refined.png): Lost stage work (kW) and efficiency penalty (%) across core mass flows from 10 kg/s to 60 kg/s with secondary mixing factor kmix = 1.65.
+
+[Vortex & Second-Order Entropy Generation](`figures/vortex_second_order_entropy.png`):** Irreversible throttling and second-order tip-vortex / bleed-jet entropy generation rate (Ṡ<sub>gen,II</sub> in W/K) across pressure ratios Π = 1.05–3.00 and tip clearances.
 
 ---
 
