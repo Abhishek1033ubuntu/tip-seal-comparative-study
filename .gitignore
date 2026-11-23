@@ -1,0 +1,15 @@
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter / Colab checkpoints
+.ipynb_checkpoints/
+
+# Temporary archives & OS artifacts
+*.zip
+.DS_Store
+Thumbs.db
