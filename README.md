@@ -50,4 +50,33 @@ At Π = 2.0 and T<sub>in</sub> = 800 K, the isentropic specific enthalpy drop ac
 | **Track A (Baseline Seal)** | **6.01 g/s** | **99.25%** | **0.88 kW** | — | **0.02%** |
 | **Track A (Degraded / Lift-Off)** | **24.12 g/s** | **96.98%** | **3.51 kW** | — | **0.10%** |
 | **Track B (36-Blade, 0.25 mm Gap)** | ~510.0 g/s | — | ~74.30 kW | ~122.60 kW | ~2.00% (bypass) |
-| **Track B (36-Blade, 0.50 mm Gap)** | **799
+| **Track B (36-Blade, 0.50 mm Gap)** | **799.07 g/s** | Baseline | **116.42 kW** | **192.09 kW** | **3.10%** (bypass) / **5.11%** (w/ mixing) |
+| **Track B (36-Blade, 1.00 mm Gap)** | ~1,380.0 g/s | — | ~201.05 kW | ~331.73 kW | ~5.23% (bypass) |
+
+---
+
+## 3. Repository Structure
+
+```text
+tip-seal-comparative-study/
+├── README.md
+├── References.md
+├── LICENSE
+├── cad/
+│   ├── track_a_carbide_piston_ring.step
+│   ├── track_a_zero_hole_shroud.step
+│   └── track_b_open_tip_22holes.step
+├── meshes/
+│   ├── track_a_carbide_piston_ring.stl
+│   ├── track_a_zero_hole_shroud.stl
+│   └── track_b_open_tip_22holes.stl
+├── scripts/
+│   ├── 01_cad_verify_and_stl_export.py
+│   ├── 02_compressible_leakage_comparison.py
+│   ├── 03_tip_clearance_and_liftoff_sensitivity.py
+│   └── 04_stage_power_loss_and_pdf_report.py
+└── figures/
+    ├── cad_verification_sheet.png
+    ├── tip_leakage_comparison.png
+    ├── tip_leakage_sensitivity.png
+    └── stage_leakage_power_loss_refined.png
