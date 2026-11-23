@@ -14,3 +14,12 @@ All notable updates to the **Tip-Seal & Blade-Tip Architecture Study** repositor
    * `04_stage_power_loss_and_pdf_report.py` — Stage bypass power loss (kW) and efficiency penalty (%) evaluation across 10–60 kg/s core flows with secondary mixing factor k<sub>mix</sub> = 1.65.
  * **Figures & Report (`figures/`, `reports/`):** Added four verification plots and the comparative technical assessment PDF report.
  * **Citation & Metadata (`CITATION.cff`, `References.md`, `RELEASE_NOTES.md`, `requirements.txt`, `.gitignore`):** Added complete release, licensing, and academic citation files attributed to Abhishek Singh.
+
+## [1.0.1] - 2026-11-23
+
+### Added
+ * Added `scripts/05_vortex_and_second_order_entropy.py` to evaluate throttling and second-order vortex/mixing entropy generation rates (Ṡ<sub>gen,II</sub> in W/K).
+ * Added `figures/vortex_second_order_entropy.png` illustrating total and second-order entropy generation across pressure ratios and tip clearances.
+
+### Updated
+ * Updated `README.md` to explicitly detail tip-vortex suppression and second-order entropy generation reduction (Ṡ<sub>gen,II</sub>) in Track A vs. Track B.
