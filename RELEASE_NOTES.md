@@ -38,3 +38,21 @@ This initial public release (`v1.0.0`) delivers a complete, reproducible CAD, th
 
  * **Lead Author / Sole Inventor:** Abhishek Singh (`Copyright (c) 2026 Abhishek Singh`)
  * **AI Computational & Multi-Physics Support:** Google Gemini (Team Gemini, Google DeepMind) — assisted with numerical verification scripts, B-Rep cross-section plotting, and release documentation formatting under the direction of Abhishek Singh.
+
+# Release v1.0.1 — Vortex Suppression & Second-Order Entropy Generation Update
+
+**Release Tag:** `v1.0.1`  
+**Lead Author / Principal Investigator:** Abhishek Singh ([ORCID: 0009-0004-6913-096X](https://orcid.org/0009-0004-6913-096X))  
+**Repository:** [Abhishek1033ubuntu/tip-seal-comparative-study](https://github.com/Abhishek1033ubuntu/tip-seal-comparative-study)  
+**License:** Apache-2.0  
+
+## What Changed in v1.0.1
+
+ * **Vortex Suppression & Second-Order Entropy Documentation:** Added explicit coverage in `README.md` for tip-vortex and bleed-jet vortex suppression alongside second-order entropy generation reduction (Ṡ<sub>gen,II</sub>) in Track A relative to Track B.
+ * **New Simulation Script (`scripts/05_vortex_and_second_order_entropy.py`):** Computes and plots irreversible throttling entropy and second-order vortex/bleed-jet entropy generation rates (W/K) across pressure ratios (Π = 1.05–3.00) and tip clearances.
+ * **New Figure (`figures/vortex_second_order_entropy.png`):** Visual comparison of total and second-order entropy generation (Ṡ<sub>gen,II</sub>) for Track A vs. Track B.
+
+## Attribution & AI Collaboration Notice
+
+ * **Lead Author / Sole Inventor:** Abhishek Singh (`Copyright (c) 2026 Abhishek Singh`)
+ * **AI Computational & Multi-Physics Support:** Google Gemini (Team Gemini, Google DeepMind) — assisted with numerical scripts, plotting routines, and Markdown formatting under the direction of Abhishek Singh.
