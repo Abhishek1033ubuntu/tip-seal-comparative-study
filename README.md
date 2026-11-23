@@ -5,7 +5,7 @@
 [![AI Collaborator](https://img.shields.io/badge/AI%20Collaborator-Google%20Gemini-4285F4.svg)](https://deepmind.google/technologies/gemini/)
 [![AI Computational Support](https://img.shields.io/badge/AI%20Computational%20%26%20Multi--Physics%20Support-Team%20Gemini%20(Google%20DeepMind)-1a73e8.svg)](https://deepmind.google/technologies/gemini/)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24465783-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.24465783)  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24476970-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.24476970)  
 
 ---
 
