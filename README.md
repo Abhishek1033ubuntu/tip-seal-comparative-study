@@ -81,16 +81,22 @@ tip-seal-comparative-study/
     ├── tip_leakage_sensitivity.png
     └── stage_leakage_power_loss_refined.png
 ```
-4. Visual Verification & Simulation Plots
-CAD Geometry & Cross-Section Verification (figures/cad_verification_sheet.png): Exact OpenCASCADE B-Rep radial slice confirming Track A's six labyrinth teeth and split ring groove clearances alongside Track B's 22-port spanwise alignment at Z = 54.72 mm.
+---
 
-Compressible Tip-Leakage Comparison (figures/tip_leakage_comparison.png): Mass-flow rate sweep across pressure ratios Π = 1.05 to 3.0 showing subsonic-to-choked transition at Πcrit ≈ 1.86 and 99.25% leakage suppression.
+## 4. Visual Verification & Simulation Plots
 
-Tip-Clearance & Ring Lift-Off Sensitivity (figures/tip_leakage_sensitivity.png): Parametric sweep of Track B running clearance (0.25 mm, 0.50 mm, 1.00 mm) and Track A degraded lift-off state (96.98% retained reduction).
+[CAD Geometry & Cross-Section Verification](figures/cad_verification_sheet.png): Exact OpenCASCADE B-Rep radial slice confirming Track A's six labyrinth teeth and split ring groove clearances alongside Track B's 22-port spanwise alignment at Z = 54.72 mm.
 
-Stage Bypass Power & Efficiency Penalty (figures/stage_leakage_power_loss_refined.png): Lost stage work (kW) and efficiency penalty (%) across core mass flows from 10 kg/s to 60 kg/s with secondary mixing factor kmix = 1.65.
+[Compressible Tip-Leakage Comparison](figures/tip_leakage_comparison.png): Mass-flow rate sweep across pressure ratios Π = 1.05 to 3.0 showing subsonic-to-choked transition at Πcrit ≈ 1.86 and 99.25% leakage suppression.
 
-5. Global Standards & Foundational Engineering References
+[Tip-Clearance & Ring Lift-Off Sensitivity](figures/tip_leakage_sensitivity.png): Parametric sweep of Track B running clearance (0.25 mm, 0.50 mm, 1.00 mm) and Track A degraded lift-off state (96.98% retained reduction).
+
+[Stage Bypass Power & Efficiency Penalty](figures/stage_leakage_power_loss_refined.png): Lost stage work (kW) and efficiency penalty (%) across core mass flows from 10 kg/s to 60 kg/s with secondary mixing factor kmix = 1.65.
+
+---
+
+## 5. Global Standards & Foundational Engineering References
+
 This work builds upon established international CAD exchange standards, compressible labyrinth-seal carry-over theory, and turbomachinery tip-leakage aerodynamics:
 
 ISO 10303-21 (STEP AP214) — Industrial Automation Systems and Integration: Standard boundary-representation (B-Rep) product data exchange protocol used for the watertight MANIFOLD_SOLID_BREP CAD models in cad/.
@@ -117,7 +123,10 @@ NASA Technical Reports Server (NTRS) — Turbomachinery Tip-Clearance & Seal Lea
 
 Global Reference: https://ntrs.nasa.gov/
 
-6. Author Attribution & AI Collaboration Disclosure
+---
+
+## 6. Author Attribution & AI Collaboration Disclosure
+
 Lead Author / Principal Investigator / Sole Inventor: Abhishek Singh
 
 ORCID: https://orcid.org/0009-0004-6913-096X
